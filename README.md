@@ -6,7 +6,7 @@ To use ```data_gen.py``` is as follows:
 ```sh
 python data_gen.py <file1.csv> <file2.csv> <number of rows>
 ```
-This file will generate two input files which follow the rules as specificed by the problem statement. The number of rows can be used to determine how many rows of the input are needed. ```file1.csv``` will contain only three coloums, while ```file2.csv``` will contain the annotation column as well.
+This file will generate two input files which follow the rules as specificed by the problem statement. The number of rows can be used to determine how many rows of the input are needed. ```file1.csv``` will contain only three columns, while ```file2.csv``` will contain the annotation column as well.
 
 To use ```lifecode.py``` is as follows:
 ```sh
