@@ -36,6 +36,7 @@ def main():
 
     for i in range(0, len(input1)):
         try:
+            # To ensure while checking that chromosome value in input 1 is the same in input 2
             index = key2.index(key1[i])
             check_values(input1[i], input2[index])
         # In cases where input file 2 does not have a key which is in input file 1
